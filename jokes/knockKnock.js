@@ -4,12 +4,18 @@ module.exports = {
     type: 'knockKnock',
     newJoke: function () {
         var sentence = getRandomSentence();
+        var sentenceParts = sentence.split(' ');
         var index = parseInt(Math.random() * 3);
-        var word = sentence.split(' ')[index];
+        var word = sentenceParts[index];
+        while(lameWords.indexOf(word.toLowerCase()) >= 0) {
+            index++;
+            word = sentenceParts[index];
+        }
         return [capitalizeFirstLetter(word), sentence];
     }
 };
 
+var lameWords = ['the', 'of', 'than', 'it', 'a'];
 
 var sentencesArray = null;
 
