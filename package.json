@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samdamana/bad-joke-maker.git"
+    "url": "git+https://github.com/sambdavidson/bad-joke-maker.git"
   },
   "keywords": [
     "bad",
@@ -20,9 +20,9 @@
   "author": "Samuel Davidson (www.samdamana.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/samdamana/bad-joke-maker/issues"
+    "url": "https://github.com/sambdavidson/bad-joke-maker/issues"
   },
-  "homepage": "https://github.com/samdamana/bad-joke-maker#readme",
+  "homepage": "https://github.com/sambdavidson/bad-joke-maker#readme",
   "dependencies": {
     "express": "^4.14.0"
   }
